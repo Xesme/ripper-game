@@ -1,0 +1,24 @@
+<div class="well">
+  <h3>Enter your information belowe to create a new ripper character</h3>
+  <br>
+  <label>Name:</label>
+  <input #newName>
+  <br>
+  <br>
+  <label>Characteristics:</label>
+  <div *ngFor="let trait of traits">
+    <label>{{trait.display}}</label>
+      <input type="checkbox" value="{{trait.value}}"
+      (click)="check(trait.value)"
+      >
+  </div>
+</div>
+<button (click)="submitForm(newName.value)">Submit</button>
+
+
+
+
+
+
+<!-- [unchecked]="characteristics.indexOf(characteristic) >=0 "-->
+<!-- (change)="updateCheckedChar(characteristic, $event)" -->

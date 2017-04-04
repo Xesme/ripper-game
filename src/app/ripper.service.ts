@@ -14,6 +14,10 @@ import { AngularFire, FirebaseListObservable } from 'angularfire2';
       return this.rippers;
     }
 
+    saveRipper(ripper){
+      this.rippers.push(ripper);
+    }
+
     // getRipperById() {
     //   return this.angularFire.database.object('rippers/' + key);
     // }

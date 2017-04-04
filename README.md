@@ -66,9 +66,9 @@ As a user, I want to be able to see my current points at any given time.
 | Create components | ( splash, start-game, stage-1, stage-2, stage-2, end-game ) | completed (splash)  |
 | Create three questions per component for game development | 1. increment 2. decrement 3. constant  | incomplete |
 | Implement routing for all components | add to routes to router.ts and module.ts | incomplete|
-| Retrieve data from firebase | Import FirebaseListObservables<any[]> and add to constructor(s) private  angularfire: AngularFire (in service as well as .ts files using the service) | incomplete |
-| Implement post request to Firebase  (form on component start-game) | push to firebase (new player)| incomplete |
-| Create dynamic routing between components | get ripper by id | incomplete |
+| Retrieve data from firebase | Import FirebaseListObservables<any[]> and add to constructor(s) private  angularfire: AngularFire (in service as well as .ts files using the service) | complete |
+| Implement post request to Firebase  (form on component start-game) | push to firebase (new player)| complete |
+| Create dynamic routing between components | get ripper by id | complete |
 | Create (click) event handler to update score as player is routed between components | post request to FireBase to update score accordingly | incomplete |
 | Create pipe for generating high score on the splash page | $ng g pipe ripper.pipe | incomplete |
 | (Extra) Project is portfolio-quality | Removed unnecessary code and use SASS or CSS for styling | incomplete |

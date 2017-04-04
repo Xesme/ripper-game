@@ -60,8 +60,8 @@ As a user, I want to be able to see my current points at any given time.
 | Create seed for firebase | rippers.json | complete |
 | Application has imported firebase | Create character model for firebase ( character: name, characteristics, score ) | complete |
 | Create routing | $ touch app.router.ts | complete |
-| Create service for project | $ ng g service ripper.service | incomplete|
-| Implement RipperService | import RipperService | incomplete |
+| Create service for project | $ ng g service ripper.service | complete|
+| Implement RipperService | import RipperService | complete |
 | Route end game back to homepage(splash) | <a (routerLink)="/"> | incomplete|
 | Create components | ( splash, start-game, stage-1, stage-2, stage-2, end-game ) | started (splash)  |
 | Create three questions per component for game development | 1. increment 2. decrement 3. constant  | incomplete |

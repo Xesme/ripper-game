@@ -1,4 +1,9 @@
 <p>
   Welcome to our game!
 </p>
-<router-outlet></router-outlet>
+<div *ngFor="let ripper of rippers">
+  <ul>
+    <li>{{ripper.name}} {{ripper.$key}}</li>
+  </ul>
+</div>
+<!-- <router-outlet></router-outlet> -->

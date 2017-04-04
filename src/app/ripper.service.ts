@@ -7,6 +7,7 @@ import { AngularFire, FirebaseListObservable } from 'angularfire2';
 
     constructor(private angularFire: AngularFire) {
       this.rippers = angularFire.database.list('rippers');
+      console.log(this.rippers);
     }
 
     getRippers() {

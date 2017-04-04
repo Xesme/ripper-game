@@ -57,14 +57,14 @@ As a user, I want to be able to see my current points at any given time.
 |:-------------:|:-------------:|:-------------:|
 | Create a new project | follow Configuration/dependencies | completed |
 | Application has a well thought out README | Set up README with implementation plan and all other necessary information. | completed |
-| Application has imported firebase | Create character model for firebase ( character: name, characteristics, score ) | incomplete |
+| Application has imported firebase | Create character model for firebase ( character: name, characteristics, score ) | complete |
 | Create routing | $ touch app.router.ts | incomplete |
 | Route end game back to homepage(splash) | <a (routerLink)="/"> | incomplete|
 | Create components | ( splash, start-game, stage-1, stage-2, stage-2, end-game ) | incomplete  |
 | Create three questions per component for game development | 1. increment 2. decrement 3. constant  | incomplete |
 | Implement routing for all components | add to routes to router.ts and module.ts | incomplete|
 | Create service for project | $ ng g service ripper.service | incomplete|
-| Create seed for firebase | rippers.json | incomplete |
+| Create seed for firebase | rippers.json | complete |
 | Retrieve data from firebase | Import FirebaseListObservables<any[]> and add to constructor(s) private  angularfire: AngularFire (in service as well as .ts files using the service) | incomplete |
 | Implement post request to Firebase  (form on component start-game) | push to firebase (new player)| incomplete |
 | Create dynamic routing between components | get ripper by id | incomplete |

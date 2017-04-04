@@ -1,0 +1,21 @@
+{
+  "rippers": [
+    {
+      "name": "Alice The Ripper",
+      "characteristics": ["sneaky", "manipulative", "quick", "clumsy"],
+      "score": 6
+    }, {
+      "name": "Dan The Ripper",
+      "characteristics": ["obnoxious", "clumsy", "stubborn"],
+      "score": 3
+    } , {
+      "name": "Xia The Ripper",
+      "characteristics": [ "perfectionist", "sneaky", "stubborn"],
+      "score": 4
+    } , {
+      "name": "Harold The Ripper",
+      "characteristics": ["arrogant", "sneaky", "perfectionist", "charasmatic"],
+      "score": 10
+    }
+  ]
+}
